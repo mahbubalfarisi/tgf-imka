@@ -3,7 +3,7 @@
 		<title>IMKA Project</title>
     	<!-- Layout -->
 <script src="./js/jquery.min.js" charset="utf-8"></script>
-<script src="./js/jquery-3.1.1.js"></script>
+<script src="./js/jquery-3.3.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
 
@@ -29,6 +29,7 @@
 <link href="./css/bootstrap.css" rel="stylesheet" >
 <link href="./css/bootstrap-theme.css" rel="stylesheet">
 <link href="./vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="./css/stylelogin.css" rel="stylesheet">
         <style>
             body,h1,h2,h3,h4,h5,h6 {
@@ -135,21 +136,20 @@
         </style>
     </head>
     <body>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <div class="bgimg-1 w3-display-container w3-text-white" id="home">
             <div class="w3-display-middle w3-jumbo w3-padding-jumbo">
                 <img src="./img/logoefishery.png">
             </div>
-            <div class="w3-display-topleft w3-padding-jumbo w3-xlarge">
+            <div class="w3-display-topleft w3-padding-jumbo w3-xlarge" style="margin: 4rem">
                 <h3>SPOTS</h3>
                 <h5>Smart Pond Temperature System</h5>
             </div>
-            <div class="w3-display-topright w3-padding-jumbo w3-xlarge" style="position: fixed; z-index: 2;">
+            <div class="w3-display-topright w3-padding-jumbo w3-xlarge" style="position: fixed; z-index: 2; margin: 4rem;">
                 <p style="display: inline-block;">Let's "Get Started"</p>
                 <p class="fa fa-arrow-right"></p>
                 <span style="font-size:30px;cursor:pointer; color: #cc8400;" onclick="openNav()">&#9776;</span>
             </div>
-            <div class="w3-display-bottomleft w3-padding-jumbo">
+            <div class="w3-display-bottomleft w3-padding-jumbo" style="margin: 4rem">
                 <p> Made for II3231 - Human Computer Interaction course </p>
                 <h5> Nama dan Logo eFishery merupakan aset milik <a href="efishery.com"> PT. Multidaya Teknologi Nusantara (Cybreed). </a></h5>
             </div>
@@ -159,7 +159,8 @@
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="overlay-content w3-display-middle">
                 <a href="javascript:void(0)" onclick="closeNav()">Home</a>
-                <a href="./login">Get Started</a>
+                <!-- <a href="./login">Get Started</a> -->
+                <a href="./datat">Get Started</a>
                 <a href="#about" onclick="closeNav()">Our Product</a>
                 <a href="#contact" onclick="closeNav()">About Us</a>
             </div>
